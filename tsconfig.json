@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es6",                                   /* Define a versão do JavaScript a ser emitida. */
+    "lib": ["dom", "dom.iterable", "esnext"],          /* Bibliotecas padrão a serem incluídas na compilação. */
+    "allowJs": true,                                  /* Permite a inclusão de arquivos JavaScript no projeto. */
+    "skipLibCheck": true,                             /* Ignora a checagem de tipos dos arquivos .d.ts. */
+    "esModuleInterop": true,                          /* Permite importações de módulos CommonJS. */
+    "allowSyntheticDefaultImports": true,              /* Permite importações padrão para módulos que não a têm. */
+    "strict": true,                                   /* Ativa todas as verificações estritas de tipo. */
+    "forceConsistentCasingInFileNames": true,         /* Garante consistência na nomenclatura de arquivos. */
+    "module": "commonjs",                             /* Define o sistema de módulos. */
+    "moduleResolution": "node",                        /* Define como os módulos são resolvidos. */
+    "resolveJsonModule": true,                         /* Permite a importação de arquivos JSON. */
+    "isolatedModules": true,                           /* Garante que cada arquivo pode ser compilado isoladamente. */
+    "noEmit": true,                                   /* Impede a emissão de arquivos JavaScript. */
+    "jsx": "react-jsx"                                /* Define como o JSX deve ser transformado. */
+  },
+  "include": ["src"],                                /* Inclui os arquivos no diretório src para compilação. */
+  "exclude": ["node_modules", "build"]               /* Exclui os diretórios node_modules e build da compilação. */
+}
